@@ -1,0 +1,15 @@
+Calculate Discounted Price
+
+Registered Customer
+	1% per year up to 5% for 5 years and above
+	Simple -> 1%
+	Valuable -> 3%
+	Most Valuable -> 5%
+
+Unregistered -> 0%
+
+Acceptance Tests:
+	Most Valuable (1 year) 100.0m -> 94.05
+	Valuable (6 years) 100.0m -> 92.15
+	Simple (1 year) 100.0m -> 98.01
+	Unregistered 100.0m -> 100.0
